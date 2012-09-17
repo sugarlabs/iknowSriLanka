@@ -122,7 +122,8 @@ CITIES = [
 ]
 
 STATS = [
-    (_('Capital:'), _('Sri Jayawardenapura Kotte') + _("(6°54′ N - 79°54′ W)")),
+    (_('Capital:'), _('Sri Jayawardenapura Kotte')),
+    ('', _("(6º54' N - 79º54' W)")),
     (_('Language:'), _('Sinhala') + ' ' + _('Tamil')),
     (_('Government:'), _('Semi-Presidential republic')),
     (_('President:'), _('Mahinda Rajapaksa')),
