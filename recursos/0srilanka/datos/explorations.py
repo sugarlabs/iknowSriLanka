@@ -16,5 +16,26 @@ EXP2 = [
     ['capitales']
 ]
 
-EXPLORATIONS = [EXP1, EXP2]
+EXP3 = [
+    _('Cities'),
+    ['lineasDepto', 'capitales', 'ciudades'],
+    [],
+    ['capitales', 'ciudades']
+]
+
+EXP4 = [
+    _('Waterways'),
+    ['rios'],
+    [],
+    ['rios']
+]
+
+EXP5 = [
+    _('Routes'),
+    ['rutas', 'capitales'],
+    ['capitales'],
+    ['rutas']
+]
+
+EXPLORATIONS = [EXP1, EXP2, EXP3]
 
