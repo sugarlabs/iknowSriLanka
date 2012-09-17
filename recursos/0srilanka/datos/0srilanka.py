@@ -5,7 +5,15 @@ from gettext import gettext as _
 NAME = _('Sri Lanka')
 
 STATES = [
-    # (_(''), 254, , , 0),
+    (_('North Eastern'), 254, 360, 188, 0),
+	(_('North Central'), 253, 409, 365, 0),
+	(_('North Western'), 252, 291, 479, 0),
+	(_('Central'), 251, 426, 583, 0),
+	(_('Noth Eastern'), 250, 606, 512, 0),
+	(_('Uva'), 249, 540, 679, 0),
+	(_('Western'), 248, 270, 682, 0),
+	(_('Sabaragamuwa'), 247, 388, 737, 0),
+	(_('Southern'), 246, 386, 835, 0)
 ]
 
 CAPITALS = [
