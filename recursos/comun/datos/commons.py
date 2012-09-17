@@ -4,14 +4,7 @@ from gettext import gettext as _
 
 ACTIVITY_NAME = _('I know Sri Lanka')
 
-PRESENTATION = [
-    _('Hello friends...'),
-    _('...tomorrow I have a\ntest about America...'),
-    _('...and I know nothing!!!'),
-    _('...what do I do???'),
-    _('Can I ask you something?'),
-    _('Will you help me?')
-]
+PRESENTATION = []
 
 PREFIX = [
     _('We have to find'),
