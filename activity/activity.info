@@ -5,3 +5,4 @@ bundle_id = org.ceibaljam.conozcosrilanka
 icon = sri_lanka
 exec = sugar-activity activity.Activity
 license = GPLv3
+summary = A game of the geography of Sri Lanka
