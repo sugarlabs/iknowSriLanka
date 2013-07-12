@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-05-26 00:31-0400\n"
-"PO-Revision-Date: 2013-07-12 07:03+0200\n"
+"PO-Revision-Date: 2013-07-13 00:56+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: hy\n"
@@ -785,19 +785,20 @@ msgstr ""
 
 #: recursos/0srilanka/datos/0srilanka.py:124
 msgid "Capital:"
-msgstr ""
+msgstr "Մայրաքաղաք."
 
 #: recursos/0srilanka/datos/0srilanka.py:124
 msgid "Sri Jayawardenapura Kotte"
 msgstr ""
 
 #: recursos/0srilanka/datos/0srilanka.py:125
+#, fuzzy
 msgid "(6º54' N - 79º54' W)"
-msgstr ""
+msgstr "(6º54' N - 79º54' W)"
 
 #: recursos/0srilanka/datos/0srilanka.py:126
 msgid "Language:"
-msgstr ""
+msgstr "Լեզու."
 
 #: recursos/0srilanka/datos/0srilanka.py:126
 msgid "Sinhala"
@@ -809,7 +810,7 @@ msgstr ""
 
 #: recursos/0srilanka/datos/0srilanka.py:127
 msgid "Government:"
-msgstr ""
+msgstr "Կառավարություն."
 
 #: recursos/0srilanka/datos/0srilanka.py:127
 msgid "Semi-Presidential republic"
@@ -817,7 +818,7 @@ msgstr ""
 
 #: recursos/0srilanka/datos/0srilanka.py:128
 msgid "President:"
-msgstr ""
+msgstr "Նախագահ."
 
 #: recursos/0srilanka/datos/0srilanka.py:128
 msgid "Mahinda Rajapaksa"
@@ -833,7 +834,7 @@ msgstr ""
 
 #: recursos/0srilanka/datos/0srilanka.py:130
 msgid "Independence:"
-msgstr ""
+msgstr "Անկախություն."
 
 #: recursos/0srilanka/datos/0srilanka.py:130
 msgid "from the United Kingdom"
@@ -842,7 +843,7 @@ msgstr ""
 #: recursos/0srilanka/datos/0srilanka.py:131
 #, python-format
 msgid "declared: %s"
-msgstr ""
+msgstr "հայտարարված` %s"
 
 #: recursos/0srilanka/datos/0srilanka.py:131
 msgid "4 of february of 1948"
@@ -851,7 +852,7 @@ msgstr ""
 #: recursos/0srilanka/datos/0srilanka.py:132
 #, python-format
 msgid "recognized: %s"
-msgstr ""
+msgstr "ճանաչվել է` %s"
 
 #: recursos/0srilanka/datos/0srilanka.py:132
 msgid "22 of may of 1972"
@@ -859,15 +860,15 @@ msgstr ""
 
 #: recursos/0srilanka/datos/0srilanka.py:133
 msgid "Area:"
-msgstr ""
+msgstr "Տարածք."
 
 #: recursos/0srilanka/datos/0srilanka.py:133
 msgid "65.610 km² (122nd)"
-msgstr ""
+msgstr "65.610 կմ² (122րդ)"
 
 #: recursos/0srilanka/datos/0srilanka.py:134
 msgid "Population:"
-msgstr ""
+msgstr "Բնակչություն."
 
 #: recursos/0srilanka/datos/0srilanka.py:134
 msgid "20.277.597 (57th)"
@@ -910,7 +911,7 @@ msgstr ""
 #: recursos/0srilanka/datos/explorations.py:20
 #: recursos/0srilanka/datos/levels.py:44
 msgid "Cities"
-msgstr ""
+msgstr "Քաղաքներ"
 
 #: recursos/0srilanka/datos/explorations.py:27
 msgid "Waterways"
