@@ -35,7 +35,7 @@ from gettext import gettext as _
 
 gtk_present = True
 try:
-    import gtk
+    from gi.repository import Gtk
 except:
     gtk_present = False
 
@@ -587,8 +587,8 @@ class Conozco():
         pygame.display.flip()
         while 1:
             if gtk_present:
-                while gtk.events_pending():
-                    gtk.main_iteration()
+                while Gtk.events_pending():
+                    Gtk.main_iteration()
 
             for event in wait_events():
                 if event.type == pygame.KEYDOWN or \
@@ -664,8 +664,8 @@ class Conozco():
         pygame.display.flip()
         while 1:
             if gtk_present:
-                while gtk.events_pending():
-                    gtk.main_iteration()
+                while Gtk.events_pending():
+                    Gtk.main_iteration()
 
             for event in wait_events():
                 if event.type == pygame.KEYDOWN or \
@@ -751,8 +751,8 @@ class Conozco():
         pygame.display.flip()
         while 1:
             if gtk_present:
-                while gtk.events_pending():
-                    gtk.main_iteration()
+                while Gtk.events_pending():
+                    Gtk.main_iteration()
 
             for event in wait_events():
                 if event.type == pygame.KEYDOWN:
@@ -912,8 +912,8 @@ class Conozco():
             cambiarPagina = False
             while not cambiarPagina:
                 if gtk_present:
-                    while gtk.events_pending():
-                        gtk.main_iteration()
+                    while Gtk.events_pending():
+                        Gtk.main_iteration()
 
                 for event in wait_events():
                     if event.type == pygame.KEYDOWN:
@@ -1465,8 +1465,8 @@ class Conozco():
         # lazo principal de espera por acciones del usuario
         while 1:
             if gtk_present:
-                while gtk.events_pending():
-                    gtk.main_iteration()
+                while Gtk.events_pending():
+                    Gtk.main_iteration()
 
             for event in wait_events():
                 if event.type == pygame.KEYDOWN:
@@ -1645,8 +1645,8 @@ class Conozco():
         # leer eventos y ver si la respuesta es correcta
         while 1:
             if gtk_present:
-                while gtk.events_pending():
-                    gtk.main_iteration()
+                while Gtk.events_pending():
+                    Gtk.main_iteration()
 
             for event in wait_events():
                 if event.type == pygame.KEYDOWN:

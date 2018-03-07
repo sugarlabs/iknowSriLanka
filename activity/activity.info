@@ -4,5 +4,6 @@ activity_version = 3
 bundle_id = org.ceibaljam.conozcosrilanka
 icon = sri_lanka
 exec = sugar-activity activity.Activity
-license = GPLv3
+license = GPLv3+
 summary = A game of the geography of Sri Lanka
+repository = https://github.com/sugarlabs/iknowSriLanka.git
