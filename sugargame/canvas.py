@@ -1,4 +1,6 @@
 import os
+import gi
+gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 from gi.repository import GLib
 from sugar3.activity.activity import PREVIEW_SIZE
