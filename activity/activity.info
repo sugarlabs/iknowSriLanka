@@ -1,6 +1,6 @@
 [Activity]
 name = I know Sri Lanka
-activity_version = 3
+activity_version = 4
 bundle_id = org.ceibaljam.conozcosrilanka
 icon = sri_lanka
 exec = sugar-activity3 activity.Activity
