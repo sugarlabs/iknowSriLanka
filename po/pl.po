@@ -2,35 +2,37 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-09 13:35-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-02-19 13:28+0000\n"
+"Last-Translator: Tymon <dwgipk@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.7.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1424352486.000000\n"
 
 #. TRANS: "name" option from activity.info file
 #: recursos/comun/datos/commons.py:5
 msgid "I know Sri Lanka"
-msgstr ""
+msgstr "Znam Sri Lankę"
 
 #. TRANS: "summary" option from activity.info file
 #. TRANS: "description" option from activity.info file
 msgid "A game of the geography of Sri Lanka"
-msgstr ""
+msgstr "Gra o geografii Sri Lanki"
 
 #: conozco.py:246 conozco.py:361 conozco.py:385 conozco.py:441 conozco.py:577
 #, python-format
 msgid "Cannot open %s"
-msgstr ""
+msgstr "Nie można otworzyć %s"
 
 #: conozco.py:465
 #, python-format
@@ -38,6 +40,8 @@ msgid ""
 "the city of\n"
 "%s"
 msgstr ""
+"miasto\n"
+"%s"
 
 #: conozco.py:474
 #, python-format
@@ -45,6 +49,8 @@ msgid ""
 "the department of\n"
 "%s"
 msgstr ""
+"departament\n"
+"%s"
 
 #: conozco.py:483
 #, python-format
@@ -52,6 +58,8 @@ msgid ""
 "the province of\n"
 "%s"
 msgstr ""
+"prowincja\n"
+"%s"
 
 #: conozco.py:492
 #, python-format
@@ -59,6 +67,8 @@ msgid ""
 "the district of\n"
 "%s"
 msgstr ""
+"dyskryt\n"
+"%s"
 
 #: conozco.py:501
 #, python-format
@@ -66,6 +76,8 @@ msgid ""
 "the state of\n"
 "%s"
 msgstr ""
+"stan\n"
+"%s"
 
 #: conozco.py:510
 #, python-format
@@ -73,6 +85,8 @@ msgid ""
 "the region of\n"
 "%s"
 msgstr ""
+"region\n"
+"%s"
 
 #: conozco.py:519
 #, python-format
@@ -80,6 +94,8 @@ msgid ""
 "the parish of\n"
 "%s"
 msgstr ""
+"parafia\n"
+"%s"
 
 #: conozco.py:528
 #, python-format
@@ -87,6 +103,8 @@ msgid ""
 "the taluka of\n"
 "%s"
 msgstr ""
+"taluka\n"
+"%s"
 
 #: conozco.py:537
 #, python-format
@@ -94,68 +112,70 @@ msgid ""
 "the municipality of\n"
 "%s"
 msgstr ""
+"gmina\n"
+"%s"
 
 #: conozco.py:546
 #, python-format
 msgid "the %s"
-msgstr ""
+msgstr "%s"
 
 #: conozco.py:615
 #, python-format
 msgid "About %s"
-msgstr ""
+msgstr "O %s"
 
 #: conozco.py:629
 msgid "Press any key to return"
-msgstr ""
+msgstr "Naciśnij dowolny przycisk aby wrócić"
 
 #: conozco.py:660
 msgid "You have chosen the map "
-msgstr ""
+msgstr "Wybrałeś mapę "
 
 #: conozco.py:666
 msgid "Play"
-msgstr ""
+msgstr "Graj"
 
 #: conozco.py:682
 msgid "Explore"
-msgstr ""
+msgstr "Zwiedzaj"
 
 #: conozco.py:702 conozco.py:846
 msgid "About this game"
-msgstr ""
+msgstr "O tej grze"
 
 #: conozco.py:710
 msgid "Return"
-msgstr ""
+msgstr "Enter"
 
 #: conozco.py:767
 msgid "Choose the map to use"
-msgstr ""
+msgstr "Wybierz mapę"
 
 #: conozco.py:787
 msgid "Previous page"
-msgstr ""
+msgstr "Poprzednia strona"
 
 #: conozco.py:832
 msgid "Next page"
-msgstr ""
+msgstr "Następna strona"
 
 #: conozco.py:853
 msgid "Exit"
-msgstr ""
+msgstr "Zakończ"
 
 #: conozco.py:1319 conozco.py:1517
 msgid "End"
-msgstr ""
+msgstr "Koniec"
 
 #: conozco.py:1330
 msgid "Show all"
-msgstr ""
+msgstr "Pokaż wszystkie"
 
 #: recursos/0srilanka/datos/0srilanka.py:5
 msgid "Sri Lanka"
-msgstr ""
+msgstr "Sri Lanka"
 
 #: recursos/0srilanka/datos/0srilanka.py:8
 #: recursos/0srilanka/datos/levels.py:11 recursos/0srilanka/datos/levels.py:38
@@ -285,47 +305,47 @@ msgstr ""
 #: recursos/0srilanka/datos/0srilanka.py:21
 #: recursos/0srilanka/datos/levels.py:30 recursos/0srilanka/datos/levels.py:49
 msgid "Galle"
-msgstr ""
+msgstr "Galle"
 
 #: recursos/0srilanka/datos/0srilanka.py:22
 #: recursos/0srilanka/datos/levels.py:31 recursos/0srilanka/datos/levels.py:50
 msgid "Ratnapura"
-msgstr ""
+msgstr "Ratnapura"
 
 #: recursos/0srilanka/datos/0srilanka.py:23
 #: recursos/0srilanka/datos/levels.py:32 recursos/0srilanka/datos/levels.py:51
 msgid "Colombo"
-msgstr ""
+msgstr "Kolombo"
 
 #: recursos/0srilanka/datos/0srilanka.py:24
 #: recursos/0srilanka/datos/levels.py:33 recursos/0srilanka/datos/levels.py:52
 msgid "Anuradhapura"
-msgstr ""
+msgstr "Anuradhapura"
 
 #: recursos/0srilanka/datos/0srilanka.py:25
 #: recursos/0srilanka/datos/levels.py:34 recursos/0srilanka/datos/levels.py:53
 msgid "Badulla"
-msgstr ""
+msgstr "Badulla"
 
 #: recursos/0srilanka/datos/0srilanka.py:26
 #: recursos/0srilanka/datos/levels.py:35 recursos/0srilanka/datos/levels.py:54
 msgid "Batticaloa"
-msgstr ""
+msgstr "Batticaloa"
 
 #: recursos/0srilanka/datos/0srilanka.py:27
 #: recursos/0srilanka/datos/levels.py:36 recursos/0srilanka/datos/levels.py:55
 msgid "Kandy"
-msgstr ""
+msgstr "Kandy"
 
 #: recursos/0srilanka/datos/0srilanka.py:28
 #: recursos/0srilanka/datos/levels.py:37 recursos/0srilanka/datos/levels.py:56
 msgid "Kurunegala"
-msgstr ""
+msgstr "Kurunegala"
 
 #: recursos/0srilanka/datos/0srilanka.py:29
 #: recursos/0srilanka/datos/levels.py:38 recursos/0srilanka/datos/levels.py:57
 msgid "Jaffna"
-msgstr ""
+msgstr "Jaffna"
 
 #: recursos/0srilanka/datos/0srilanka.py:33
 #: recursos/0srilanka/datos/levels.py:58
@@ -375,47 +395,47 @@ msgstr ""
 #: recursos/0srilanka/datos/0srilanka.py:42
 #: recursos/0srilanka/datos/levels.py:67
 msgid "Nedunkeni"
-msgstr ""
+msgstr "Nedunkeni"
 
 #: recursos/0srilanka/datos/0srilanka.py:43
 #: recursos/0srilanka/datos/levels.py:68
 msgid "Puliyankulam"
-msgstr ""
+msgstr "Puliyankulam"
 
 #: recursos/0srilanka/datos/0srilanka.py:44
 #: recursos/0srilanka/datos/levels.py:69
 msgid "Vavuniya"
-msgstr ""
+msgstr "Vavuniya"
 
 #: recursos/0srilanka/datos/0srilanka.py:45
 #: recursos/0srilanka/datos/levels.py:70
 msgid "Madhu Road"
-msgstr ""
+msgstr "Droga Madhu (Madhu Road)"
 
 #: recursos/0srilanka/datos/0srilanka.py:46
 #: recursos/0srilanka/datos/levels.py:71
 msgid "Talaimannar"
-msgstr ""
+msgstr "Talaimannar"
 
 #: recursos/0srilanka/datos/0srilanka.py:47
 #: recursos/0srilanka/datos/levels.py:72
 msgid "Mannar"
-msgstr ""
+msgstr "Mannar"
 
 #: recursos/0srilanka/datos/0srilanka.py:48
 #: recursos/0srilanka/datos/levels.py:73
 msgid "Silavatturai"
-msgstr ""
+msgstr "Silavatturai"
 
 #: recursos/0srilanka/datos/0srilanka.py:49
 #: recursos/0srilanka/datos/levels.py:74
 msgid "Pulmoddai"
-msgstr ""
+msgstr "Pulmoddai"
 
 #: recursos/0srilanka/datos/0srilanka.py:50
 #: recursos/0srilanka/datos/levels.py:75
 msgid "Pankulam"
-msgstr ""
+msgstr "Pankulam"
 
 #: recursos/0srilanka/datos/0srilanka.py:51
 #: recursos/0srilanka/datos/levels.py:76
@@ -465,47 +485,47 @@ msgstr ""
 #: recursos/0srilanka/datos/0srilanka.py:60
 #: recursos/0srilanka/datos/levels.py:85
 msgid "Maragahewa"
-msgstr ""
+msgstr "Maragahewa"
 
 #: recursos/0srilanka/datos/0srilanka.py:61
 #: recursos/0srilanka/datos/levels.py:86
 msgid "Kekirawa"
-msgstr ""
+msgstr "Kekirawa"
 
 #: recursos/0srilanka/datos/0srilanka.py:62
 #: recursos/0srilanka/datos/levels.py:87
 msgid "Habarane"
-msgstr ""
+msgstr "Habarane"
 
 #: recursos/0srilanka/datos/0srilanka.py:63
 #: recursos/0srilanka/datos/levels.py:88
 msgid "Galgamuwa"
-msgstr ""
+msgstr "Galgamuwa"
 
 #: recursos/0srilanka/datos/0srilanka.py:64
 #: recursos/0srilanka/datos/levels.py:89
 msgid "Mutur"
-msgstr ""
+msgstr "Mutur"
 
 #: recursos/0srilanka/datos/0srilanka.py:65
 #: recursos/0srilanka/datos/levels.py:90
 msgid "Kantalai"
-msgstr ""
+msgstr "Kantalai"
 
 #: recursos/0srilanka/datos/0srilanka.py:66
 #: recursos/0srilanka/datos/levels.py:91
 msgid "Kathiraveli"
-msgstr ""
+msgstr "Kathiraveli"
 
 #: recursos/0srilanka/datos/0srilanka.py:67
 #: recursos/0srilanka/datos/levels.py:92
 msgid "Polonnaruwa"
-msgstr ""
+msgstr "Polonnaruwa"
 
 #: recursos/0srilanka/datos/0srilanka.py:68
 #: recursos/0srilanka/datos/levels.py:93
 msgid "Valachchenai"
-msgstr ""
+msgstr "Valachchenai"
 
 #: recursos/0srilanka/datos/0srilanka.py:69
 #: recursos/0srilanka/datos/levels.py:94
@@ -555,47 +575,47 @@ msgstr ""
 #: recursos/0srilanka/datos/0srilanka.py:78
 #: recursos/0srilanka/datos/levels.py:103
 msgid "Paddiruppu"
-msgstr ""
+msgstr "Paddiruppu"
 
 #: recursos/0srilanka/datos/0srilanka.py:79
 #: recursos/0srilanka/datos/levels.py:104
 msgid "Kehelula"
-msgstr ""
+msgstr "Kehelula"
 
 #: recursos/0srilanka/datos/0srilanka.py:80
 #: recursos/0srilanka/datos/levels.py:105
 msgid "Kalmunai"
-msgstr ""
+msgstr "Kalmunai"
 
 #: recursos/0srilanka/datos/0srilanka.py:81
 #: recursos/0srilanka/datos/levels.py:106
 msgid "Uhana"
-msgstr ""
+msgstr "Uhana"
 
 #: recursos/0srilanka/datos/0srilanka.py:82
 #: recursos/0srilanka/datos/levels.py:107
 msgid "Amparai"
-msgstr ""
+msgstr "Amparai"
 
 #: recursos/0srilanka/datos/0srilanka.py:83
 #: recursos/0srilanka/datos/levels.py:108
 msgid "Mahiyangana"
-msgstr ""
+msgstr "Mahiyangana"
 
 #: recursos/0srilanka/datos/0srilanka.py:84
 #: recursos/0srilanka/datos/levels.py:109
 msgid "Tirrukkovil"
-msgstr ""
+msgstr "Tirrukkovil"
 
 #: recursos/0srilanka/datos/0srilanka.py:85
 #: recursos/0srilanka/datos/levels.py:110
 msgid "Bibile"
-msgstr ""
+msgstr "Bibile"
 
 #: recursos/0srilanka/datos/0srilanka.py:86
 #: recursos/0srilanka/datos/levels.py:111
 msgid "Pottuvil"
-msgstr ""
+msgstr "Pottuvil"
 
 #: recursos/0srilanka/datos/0srilanka.py:87
 #: recursos/0srilanka/datos/levels.py:112
@@ -635,47 +655,47 @@ msgstr ""
 #: recursos/0srilanka/datos/0srilanka.py:94
 #: recursos/0srilanka/datos/levels.py:119
 msgid "Gampaha"
-msgstr ""
+msgstr "Gampaha"
 
 #: recursos/0srilanka/datos/0srilanka.py:95
 #: recursos/0srilanka/datos/levels.py:120
 msgid "Ja-Ela"
-msgstr ""
+msgstr "Ja-Ela"
 
 #: recursos/0srilanka/datos/0srilanka.py:96
 #: recursos/0srilanka/datos/levels.py:121
 msgid "Avissawella"
-msgstr ""
+msgstr "Avissawella"
 
 #: recursos/0srilanka/datos/0srilanka.py:97
 #: recursos/0srilanka/datos/levels.py:122
 msgid "Nuwara Eliya"
-msgstr ""
+msgstr "Nuwara Eliya"
 
 #: recursos/0srilanka/datos/0srilanka.py:98
 #: recursos/0srilanka/datos/levels.py:123
 msgid "Haputale"
-msgstr ""
+msgstr "Haputale"
 
 #: recursos/0srilanka/datos/0srilanka.py:99
 #: recursos/0srilanka/datos/levels.py:124
 msgid "Balangoda"
-msgstr ""
+msgstr "Balangoda"
 
 #: recursos/0srilanka/datos/0srilanka.py:100
 #: recursos/0srilanka/datos/levels.py:125
 msgid "Tellula"
-msgstr ""
+msgstr "Tellula"
 
 #: recursos/0srilanka/datos/0srilanka.py:101
 #: recursos/0srilanka/datos/levels.py:126
 msgid "Kumana"
-msgstr ""
+msgstr "Kumana"
 
 #: recursos/0srilanka/datos/0srilanka.py:102
 #: recursos/0srilanka/datos/levels.py:127
 msgid "Kataragama"
-msgstr ""
+msgstr "Kataragama"
 
 #: recursos/0srilanka/datos/0srilanka.py:103
 #: recursos/0srilanka/datos/levels.py:128
@@ -735,45 +755,45 @@ msgstr ""
 #: recursos/0srilanka/datos/0srilanka.py:114
 #: recursos/0srilanka/datos/levels.py:139
 msgid "Rakwana"
-msgstr ""
+msgstr "Rakwana"
 
 #: recursos/0srilanka/datos/0srilanka.py:115
 #: recursos/0srilanka/datos/levels.py:140
 msgid "Deniyaya"
-msgstr ""
+msgstr "Deniyaya"
 
 #: recursos/0srilanka/datos/0srilanka.py:116
 #: recursos/0srilanka/datos/levels.py:141
 msgid "Ambalangoda"
-msgstr ""
+msgstr "Ambalangoda"
 
 #: recursos/0srilanka/datos/0srilanka.py:117
 #: recursos/0srilanka/datos/levels.py:142
 msgid "Udugama"
-msgstr ""
+msgstr "Udugama"
 
 #: recursos/0srilanka/datos/0srilanka.py:118
 #: recursos/0srilanka/datos/levels.py:143
 msgid "Akuressa"
-msgstr ""
+msgstr "Akuressa"
 
 #: recursos/0srilanka/datos/0srilanka.py:119
 #: recursos/0srilanka/datos/levels.py:144
 msgid "Tangalla"
-msgstr ""
+msgstr "Tangalla"
 
 #: recursos/0srilanka/datos/0srilanka.py:120
 #: recursos/0srilanka/datos/levels.py:145
 msgid "Matara"
-msgstr ""
+msgstr "Matara"
 
 #: recursos/0srilanka/datos/0srilanka.py:124
 msgid "Capital:"
-msgstr ""
+msgstr "Stolica:"
 
 #: recursos/0srilanka/datos/0srilanka.py:124
 msgid "Sri Jayawardenapura Kotte"
-msgstr ""
+msgstr "Sri Dźajawardanapura Kotte"
 
 #: recursos/0srilanka/datos/0srilanka.py:125
 msgid "(6º54' N - 79º54' W)"
@@ -813,41 +833,41 @@ msgstr ""
 
 #: recursos/0srilanka/datos/0srilanka.py:129
 msgid "D. M. Jayaratne"
-msgstr ""
+msgstr "D. M. Jayaratne"
 
 #: recursos/0srilanka/datos/0srilanka.py:130
 msgid "Independence:"
-msgstr ""
+msgstr "Niepodległość:"
 
 #: recursos/0srilanka/datos/0srilanka.py:130
 msgid "from the United Kingdom"
-msgstr ""
+msgstr "z Wielkiej Brytanii"
 
 #: recursos/0srilanka/datos/0srilanka.py:131
 #, python-format
 msgid "declared: %s"
-msgstr ""
+msgstr "zadeklarowane: %s"
 
 #: recursos/0srilanka/datos/0srilanka.py:131
 msgid "4 of february of 1948"
-msgstr ""
+msgstr "4 lutego 1948"
 
 #: recursos/0srilanka/datos/0srilanka.py:132
 #, python-format
 msgid "recognized: %s"
-msgstr ""
+msgstr "rozpoznawany: %s"
 
 #: recursos/0srilanka/datos/0srilanka.py:132
 msgid "22 of may of 1972"
-msgstr ""
+msgstr "22 maja 1972"
 
 #: recursos/0srilanka/datos/0srilanka.py:133
 msgid "Area:"
-msgstr ""
+msgstr "Obszar:"
 
 #: recursos/0srilanka/datos/0srilanka.py:133
 msgid "65.610 km² (122nd)"
-msgstr ""
+msgstr "65.610 km² (122 miejsce)"
 
 #: recursos/0srilanka/datos/0srilanka.py:134
 msgid "Population:"
@@ -889,24 +909,24 @@ msgstr ""
 #: recursos/0srilanka/datos/explorations.py:13
 #: recursos/0srilanka/datos/levels.py:25
 msgid "Provincial capitals"
-msgstr ""
+msgstr "Stolice prowincji"
 
 #: recursos/0srilanka/datos/explorations.py:20
 #: recursos/0srilanka/datos/levels.py:44
 msgid "Cities"
-msgstr ""
+msgstr "Miasta"
 
 #: recursos/0srilanka/datos/explorations.py:27
 msgid "Waterways"
-msgstr ""
+msgstr "Drogi wodne"
 
 #: recursos/0srilanka/datos/explorations.py:34
 msgid "Routes"
-msgstr ""
+msgstr "Trasy"
 
 #: recursos/0srilanka/datos/levels.py:29 recursos/0srilanka/datos/levels.py:48
 msgid "It's the capital of Sri Lanka"
-msgstr ""
+msgstr "Jest stolicą Sri Lanki"
 
 #: recursos/0srilanka/datos/levels.py:30 recursos/0srilanka/datos/levels.py:31
 #: recursos/0srilanka/datos/levels.py:32 recursos/0srilanka/datos/levels.py:33
@@ -986,19 +1006,19 @@ msgstr ""
 #: recursos/0srilanka/datos/levels.py:145
 #, python-format
 msgid "It's in %s"
-msgstr ""
+msgstr "To jest w %s"
 
 #: recursos/comun/datos/commons.py:10
 msgid "We have to find"
-msgstr ""
+msgstr "Musimy znaleźć"
 
 #: recursos/comun/datos/commons.py:11
 msgid "Now we have to find"
-msgstr ""
+msgstr "Teraz musimy znaleźć"
 
 #: recursos/comun/datos/commons.py:12
 msgid "We need to find"
-msgstr ""
+msgstr "Teraz musimy znaleźć"
 
 #: recursos/comun/datos/commons.py:16
 msgid "Can you tell me where it is?"
@@ -1038,15 +1058,15 @@ msgstr ""
 
 #: recursos/comun/datos/commons.py:31
 msgid "No, it is not there"
-msgstr ""
+msgstr "Nie, to nie tutaj"
 
 #: recursos/comun/datos/commons.py:32
 msgid "No, that seems to be wrong"
-msgstr ""
+msgstr "Nie, to jest raczej źle"
 
 #: recursos/comun/datos/commons.py:33
 msgid "That is not correct"
-msgstr ""
+msgstr "To nie jest poprawne"
 
 #: recursos/comun/datos/commons.py:37
 msgid ""
