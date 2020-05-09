@@ -1884,8 +1884,11 @@ class Conozco():
         self.load_stats()
 
         self.paginaDir = 0
-        while 1:
-            self.pantallaDirectorios() # seleccion de mapa
+        self.running = True
+        while self.running:
+            if self.pantallaDirectorios() == 1:
+                return
+            # seleccion de mapa
             pygame.mouse.set_cursor((32,32), (1,1), *self.cursor_espera)
             self.directorio = self.listaDirectorios\
                 [self.indiceDirectorioActual]
