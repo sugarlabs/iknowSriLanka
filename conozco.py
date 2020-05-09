@@ -935,10 +935,9 @@ class Conozco():
                             if self.sound:
                                 self.click.play()
                             self.save_stats()
-                            sys.exit()
                             if self.parent is not None:
                                 self.parent.close(skip_save=True)
-                                return 1
+                            return 1
                     elif event.type == pygame.QUIT:
                         if self.sound:
                             self.click.play()
