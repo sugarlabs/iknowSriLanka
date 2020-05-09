@@ -1894,10 +1894,11 @@ class Conozco():
                 [self.indiceDirectorioActual]
             self.cargarDirectorio()
             pygame.mouse.set_cursor((32,32), (1,1), *self.cursor)
-            while 1:
+            while self.running:
                 # pantalla inicial de juego
                 self.elegir_directorio = False
-                self.pantallaInicial()
+                if self.pantallaInicial() == 1:
+                    return
                 if self.elegir_directorio: # volver a seleccionar mapa
                     break
                 # dibujar fondo y panel
