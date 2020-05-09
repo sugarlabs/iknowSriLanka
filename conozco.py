@@ -1484,6 +1484,11 @@ class Conozco():
                         if self.sound:
                             self.click.play()
                         return
+                elif event.type == pygame.QUIT:
+                    if self.sound:
+                        self.click.play()
+                    self.save_stats()
+                    return 1
                 elif event.type == pygame.MOUSEBUTTONDOWN:
                     if self.sound:
                         self.click.play()
