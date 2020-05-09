@@ -1933,7 +1933,8 @@ class Conozco():
                         yLinea = yLinea+self.fuente9.get_height()+int(5*scale)
 
                     pygame.display.flip()
-                    self.explorarNombres()
+                    if self.explorarNombres() == 1:
+                        return
 
 
 def main():
