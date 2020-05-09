@@ -1942,4 +1942,6 @@ def main():
     juego.principal()
 
 if __name__ == "__main__":
+    pygame.init()
+    pygame.display.init()
     main()
