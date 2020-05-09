@@ -769,6 +769,11 @@ class Conozco():
                             self.click.play()
                         self.elegir_directorio = True
                         return
+                elif event.type == pygame.QUIT:
+                    if self.sound:
+                        self.click.play()
+                    self.save_stats()
+                    return 1
                 elif event.type == pygame.MOUSEBUTTONDOWN:
                     if self.sound:
                         self.click.play()
@@ -931,6 +936,14 @@ class Conozco():
                                 self.click.play()
                             self.save_stats()
                             sys.exit()
+                            if self.parent is not None:
+                                self.parent.close(skip_save=True)
+                                return 1
+                    elif event.type == pygame.QUIT:
+                        if self.sound:
+                            self.click.play()
+                        self.save_stats()
+                        return 1
                     elif event.type == pygame.MOUSEBUTTONDOWN:
                         if self.sound:
                             self.click.play()
@@ -983,14 +996,18 @@ class Conozco():
                             if pos[1] < 850*scale + shift_y:
                                 if pos[0] > 20*scale+shift_x and \
                                    pos[0] < 390*scale+shift_x:
-                                    self.pantallaAcercaDe() # acerca
+                                    if self.pantallaAcercaDe() == 1:
+                                        return 1  # acerca
                                 elif pos[0] > 420*scale+shift_x and \
                                      pos[0] < 790*scale+shift_x:
-                                    self.pantallaStats() # stats
+                                    if self.pantallaStats() == 1: 
+                                        return 1  # stats
                                 elif pos[0] > 820*scale+shift_x and \
                                         pos[0] < 1190*scale+shift_x:
                                     self.save_stats()
-                                    sys.exit()  # exit
+                                    if self.parent is not None:
+                                        self.parent.close(skip_save=True)
+                                    return 1
                     elif event.type == EVENTOREFRESCO:
                         pygame.display.flip()
 
