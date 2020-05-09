@@ -1666,7 +1666,8 @@ class Conozco():
             for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27: # escape: salir
-                        self.click.play()
+                        if self.sound:
+                            self.click.play()
                         pygame.time.set_timer(EVENTORESPUESTA,0)
                         pygame.time.set_timer(EVENTODESPEGUE,0)
                         return
