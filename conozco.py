@@ -112,11 +112,6 @@ xo_resolution = True
 
 clock = pygame.time.Clock()
 
-def wait_events():
-    """ Funcion para esperar por eventos de pygame sin consumir CPU """
-    global clock
-    clock.tick(20)
-    return pygame.event.get()
 
 class Punto():
     """Clase para objetos geograficos que se pueden definir como un punto.
@@ -590,7 +585,7 @@ class Conozco():
                 while Gtk.events_pending():
                     Gtk.main_iteration()
 
-            for event in wait_events():
+            for event in pygame.event.get()():
                 if event.type == pygame.KEYDOWN or \
                         event.type == pygame.MOUSEBUTTONDOWN:
                     if self.sound:
@@ -667,7 +662,7 @@ class Conozco():
                 while Gtk.events_pending():
                     Gtk.main_iteration()
 
-            for event in wait_events():
+            for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN or \
                         event.type == pygame.MOUSEBUTTONDOWN:
                     if self.sound:
@@ -754,7 +749,7 @@ class Conozco():
                 while Gtk.events_pending():
                     Gtk.main_iteration()
 
-            for event in wait_events():
+            for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27: # escape: volver
                         if self.sound:
@@ -915,7 +910,7 @@ class Conozco():
                     while Gtk.events_pending():
                         Gtk.main_iteration()
 
-                for event in wait_events():
+                for event in pygame.event.get():
                     if event.type == pygame.KEYDOWN:
                         if event.key == 27: # escape: salir
                             if self.sound:
@@ -1468,7 +1463,7 @@ class Conozco():
                 while Gtk.events_pending():
                     Gtk.main_iteration()
 
-            for event in wait_events():
+            for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27: # escape: salir
                         if self.sound:
@@ -1648,7 +1643,7 @@ class Conozco():
                 while Gtk.events_pending():
                     Gtk.main_iteration()
 
-            for event in wait_events():
+            for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27: # escape: salir
                         self.click.play()
