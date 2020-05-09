@@ -1671,6 +1671,11 @@ class Conozco():
                         pygame.time.set_timer(EVENTORESPUESTA,0)
                         pygame.time.set_timer(EVENTODESPEGUE,0)
                         return
+                elif event.type == pygame.QUIT:
+                    if self.sound:
+                        self.click.play()
+                    self.save_stats()
+                    return 1
                 elif event.type == pygame.MOUSEBUTTONDOWN:
                     self.click.play()
                     if event.pos[0] < XMAPAMAX*scale+shift_x: # zona mapa
