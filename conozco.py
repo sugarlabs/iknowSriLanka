@@ -581,11 +581,12 @@ class Conozco():
                         COLOR_SKIP)
         pygame.display.flip()
         while 1:
+            clock.tick(20)
             if gtk_present:
                 while Gtk.events_pending():
                     Gtk.main_iteration()
 
-            for event in pygame.event.get()():
+            for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN or \
                         event.type == pygame.MOUSEBUTTONDOWN:
                     if self.sound:
@@ -593,6 +594,11 @@ class Conozco():
                     self.pantalla.blit(self.pantallaTemp,(0,0))
                     pygame.display.flip()
                     return
+                elif event.type == pygame.QUIT:
+                    if self.sound:
+                        self.click.play()
+                    self.save_stats()
+                    return 1
                 elif event.type == EVENTOREFRESCO:
                     pygame.display.flip()
 
@@ -658,6 +664,7 @@ class Conozco():
 
         pygame.display.flip()
         while 1:
+            clock.tick(20)
             if gtk_present:
                 while Gtk.events_pending():
                     Gtk.main_iteration()
@@ -670,6 +677,11 @@ class Conozco():
                     self.pantalla.blit(self.pantallaTemp,(0,0))
                     pygame.display.flip()
                     return
+                elif event.type == pygame.QUIT:
+                    if self.sound:
+                        self.click.play()
+                    self.save_stats()
+                    return 1
                 elif event.type == EVENTOREFRESCO:
                     pygame.display.flip()
 
@@ -745,6 +757,7 @@ class Conozco():
                             COLOR_BUTTON_T)
         pygame.display.flip()
         while 1:
+            clock.tick(20)
             if gtk_present:
                 while Gtk.events_pending():
                     Gtk.main_iteration()
@@ -906,6 +919,7 @@ class Conozco():
             pygame.display.flip()
             cambiarPagina = False
             while not cambiarPagina:
+                clock.tick(20)
                 if gtk_present:
                     while Gtk.events_pending():
                         Gtk.main_iteration()
@@ -1459,6 +1473,7 @@ class Conozco():
         pygame.display.flip()
         # lazo principal de espera por acciones del usuario
         while 1:
+            clock.tick(20)
             if gtk_present:
                 while Gtk.events_pending():
                     Gtk.main_iteration()
