@@ -1912,7 +1912,7 @@ class Conozco():
                                     int(YBICHO*scale+shift_y)))
                     self.estadobicho = ESTADONORMAL
                     pygame.display.flip()
-                    if self.jugarNivel():
+                    if self.jugarNivel() == 1:
                         return
                     self._score = self._score + self.puntos
                     self._average = self._score / self._game_times
