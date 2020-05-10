@@ -9,7 +9,6 @@ import sugargame.canvas
 import pygame
 from sugar3.activity import activity
 from sugar3.activity.widgets import DescriptionItem
-from sugar3.activity.widgets import ShareButton
 from sugar3.activity.widgets import StopButton
 from sugar3.activity.widgets import ActivityButton
 from sugar3.graphics.toolbarbox import ToolbarBox
@@ -40,10 +39,6 @@ class Activity(activity.Activity):
         description_item = DescriptionItem(self)
         toolbar_box.toolbar.insert(description_item, -1)
         description_item.show()
-
-        share_button = ShareButton(self)
-        toolbar_box.toolbar.insert(share_button, -1)
-        share_button.show()
 
         separator = Gtk.SeparatorToolItem()
         separator.props.draw = False
