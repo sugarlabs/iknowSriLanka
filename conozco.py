@@ -641,7 +641,7 @@ class Conozco():
                         (int(400*scale+shift_x),
                         int(450*scale+shift_y)),
                         COLOR_STAT_N)
-        msg = _('Times using Game Mode: %s') % self._game_times
+        msg = _('Times using Game Mode: %.2f') % float(self._game_times)
         self.mostrarTexto(str(msg),
                         self.fuente32,
                         (int(400*scale+shift_x),
@@ -649,7 +649,7 @@ class Conozco():
                         COLOR_STAT_N)
         t = int(time.time() - self._init_time) / 60
         t = t + self._time
-        msg = _('Total time: %s minutes') % t
+        msg = _('Total time: %.2f minutes') % float(t)
         self.mostrarTexto(str(msg),
                         self.fuente32,
                         (int(400*scale+shift_x),
