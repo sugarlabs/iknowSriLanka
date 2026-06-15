@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-08 09:33+0100\n"
-"PO-Revision-Date: 2026-06-15 04:38+0000\n"
+"PO-Revision-Date: 2026-06-15 16:05+0000\n"
 "Last-Translator: NF <rkavt@smartprojects.ge>\n"
 "Language-Team: Georgian <http://weblate.sugarlabs.org/projects/"
 "sugar-activities/iknowsrilanka/ka/>\n"
@@ -30,7 +30,7 @@ msgstr ""
 #: conozco.py:261 conozco.py:371 conozco.py:396 conozco.py:452 conozco.py:533
 #, python-format
 msgid "Cannot open %s"
-msgstr ""
+msgstr "%s-ის გახსნა ვერ მოხერხდა"
 
 #: conozco.py:483
 #, python-format
@@ -108,7 +108,7 @@ msgstr ""
 #: conozco.py:568
 #, python-format
 msgid "About %s"
-msgstr ""
+msgstr "%s-ის შესახებ"
 
 #: conozco.py:582 conozco.py:658
 msgid "Press any key to return"
@@ -195,7 +195,7 @@ msgstr "დასასრული"
 
 #: conozco.py:1459
 msgid "Show all"
-msgstr ""
+msgstr "ყველას ჩვენება"
 
 #: recursos/0srilanka/datos/0srilanka.py:5
 msgid "Sri Lanka"
